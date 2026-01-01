@@ -1,10 +1,53 @@
-# Getting Started with Create React App
+# Arty - React Architecture Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React.js conversion of a static HTML architecture website. It showcases modern web development practices using React and React Router.
+
+## Features
+
+- **React 18** - Latest version of React
+- **React Router** - Client-side routing for seamless navigation
+- **Responsive Design** - Mobile-friendly layout
+- **Component-Based Architecture** - Reusable components (Header, Footer, Layout)
+- **Multiple Pages** - Home, About, Typography, and Contacts
+
+## Project Structure
+
+```
+react-site/
+├── public/
+│   ├── css/           # Stylesheets
+│   ├── fonts/         # Web fonts
+│   ├── images/        # Image assets
+│   ├── js/            # JavaScript libraries
+│   └── video/         # Video files
+├── src/
+│   ├── components/    # Reusable components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── Layout.js
+│   ├── pages/         # Page components
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   ├── Typography.js
+│   │   └── Contacts.js
+│   ├── App.js         # Main App component with routing
+│   └── index.js       # Entry point
+```
+
+## Installation
+
+1. Make sure you have Node.js installed on your system
+2. Navigate to the project directory:
+   ```bash
+   cd react-site
+   ```
+
+3. Install dependencies (already done):
+   ```bash
+   npm install
+   ```
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 

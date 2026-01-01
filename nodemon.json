@@ -1,0 +1,7 @@
+{
+  "watch": ["src", "public"],
+  "ext": "js,jsx,json,css",
+  "ignore": ["node_modules", "build"],
+  "exec": "react-scripts start",
+  "delay": "1000"
+}
