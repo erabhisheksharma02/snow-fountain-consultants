@@ -12,6 +12,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <style>
+        {`
+          .page {
+            overflow: visible !important;
+          }
+        `}
+      </style>
       <div className="page">
         <Header />
         <main>{children}</main>

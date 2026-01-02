@@ -9,7 +9,19 @@ const Header = () => {
   };
 
   return (
-    <header className="section page-header">
+    <>
+      <style>
+        {`
+          .page-header {
+            position: sticky !important;
+            top: 0 !important;
+            z-index: 1000 !important;
+            background-color: #ffffff !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+          }
+        `}
+      </style>
+      <header className="section page-header">
       <div className="rd-navbar-wrap">
         <nav className="rd-navbar rd-navbar-wide" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
           <div className="rd-navbar-main-outer">
@@ -53,6 +65,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
+    </>
   );
 };
 
